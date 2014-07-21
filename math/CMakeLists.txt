@@ -5,7 +5,7 @@ file (GLOB MATH_SOURCES
 
 # Collect sources into the variable SIMPLE_FUNCTION_SOURCES  
 file (GLOB SIMPLE_FUNCTION_SOURCES
-      "simple/*.h",
+      "simple/*.h"
       "simple/*.cxx")
 
 # Another way to collect sources into a variable ADVANCED_FUNCTION_SOURCES
